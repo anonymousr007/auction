@@ -1,0 +1,288 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+.nav-link{
+    display: flex;
+    background-color: cornsilk;
+    height: 3rem;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.link1{
+    margin-left: 4%;
+   
+    padding: 5px;
+    transition: 2s letter-spacing;
+    
+}
+
+.link1 ul{
+   list-style-type: none;
+   font-size: 2rem;
+}
+
+.link1 ul a{
+   color: black;
+   display: block;
+   text-decoration: none;
+}
+
+.sign1{
+  margin-left: 15%;
+}
+
+.link1 .serv1 {
+    display: none;
+}
+
+.link1 .serv1 li{
+    padding: 10px;
+}
+.link1:hover{
+  text-decoration: underline;
+  letter-spacing: 4px;
+  color:#ac4b1c;
+}
+
+.link1:hover .serv1{
+    display: block;
+    box-shadow: 4px 15px 8px gray;
+    width: 300px;
+    background-color: #ffd57e;
+     margin-top: 0.3rem;
+    transition: 2s padding-left; 
+}
+
+.link1:hover .serv1 li:hover{
+  padding-left: 24px;
+  text-decoration: none;
+}
+
+/* media query */
+
+@media all and (max-width: 1180px){
+
+    .nav-link{
+        display: none;
+    }
+
+ 
+
+    .link1{
+        width:100%;
+        background-color: tomato;
+        margin: 10px;
+        padding-left: 1rem;
+         border-bottom: 3px solid black; 
+    }
+    
+    .link1:hover {
+        z-index: 100;
+        box-shadow: 4px 5px 8px grey;
+    }
+
+    .link-box{
+        background-color: aliceblue;
+        display: none;
+        z-index: 100;
+    }
+
+    .link1:hover .serv1{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd57e;
+     margin-top: 0.3rem;
+    transition: 2s padding-left; 
+   }
+
+   .icon-left{
+     position: absolute;
+     right: 5%;
+     display: flex; 
+   }
+   
+   .logo1{
+       display: flex;
+       font-size: 30px;
+       padding: 1%;
+       position:sticky;
+       top: 0%;
+      background-color: aliceblue;
+   }
+
+   .logo1  h1{
+       text-decoration: underline;
+        margin-left: 4%;
+       transition: 2s letter-spacing;
+   }
+
+   .logo1:hover h1:hover {
+       color: #ac4b1c;
+       letter-spacing: 5px;
+   }
+   
+   .cross1{
+       display: none;
+   }
+  
+   .non1{
+       display: none;
+   }
+
+   .bloc{
+       display: block;
+   }
+
+   .icon-left:hover{
+     color: #e5c5b5;
+   }
+
+}
+
+.secdes a{
+    display: block;
+    margin-top: 2rem;
+    color:white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    background-color:#99f3bd ; 
+}
+
+@media all and (min-width :1181px){
+    .max11180{
+        display: none;
+    }
+
+    .secdes a{
+    display: block;
+    margin-top: 10rem;
+    color:white;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color:#ffe05d ; 
+    }
+
+}
+
+body{
+    background-image: url("./auctimg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 100Vh; 
+    background-position: center;
+}
+
+/* nav section over */
+
+.des1{
+    width:50%;
+     margin:auto; 
+     height: 100%;
+     margin-top: 10%; 
+    z-index: -10; 
+    overflow: hidden;
+}
+
+.firdes1{
+    width: 100%;
+ 
+   
+}
+
+.firdes{
+  font-size: 2.5rem;
+  color: whitesmoke;
+ font-weight: 1000; 
+}
+
+.secdes{
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 500; 
+   padding-top: 4%; 
+}
+
+
+
+.secdes a:hover{
+    background-color:#7579e7;
+}
+
+
+
+@media all and (max-width:617px){
+    .des1{
+    width:100%;
+    height: 100%;
+    padding: 2rem;
+   }
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+}
+
+/* first page is over */
+
+.hicon{
+   display: flex; 
+}
+
+.hdivbloc{
+   width:25%;
+   height: 40%; 
+}
+
+.hiconadm{
+    font-size: 5rem;
+   padding: 5px; 
+}
+
+.hiconarrow2{
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+
+.howblock{
+    display: flex;
+    padding: 20px;
+}
+
+@media all and (max-width: 730px){
+   
+    .hdivbloc{
+        background-color: green;
+        display: block;
+        width: 100%;
+        text-align: center;
+         margin: 10px;
+    }
+   
+    .howblock{
+        display: block;
+    }
+   
+    .hiconarrow2{
+        margin-left: 50%;
+    }
+
+}
+
+
+
+
