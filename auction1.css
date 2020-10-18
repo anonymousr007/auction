@@ -184,6 +184,7 @@
 body{
     background-image: url("./auctimg.webp");
     background-repeat: no-repeat;
+    overflow-x: hidden;
     background-size: cover;
      height: 100Vh; 
     background-position: center;
@@ -547,6 +548,81 @@ background-image: linear-gradient(#FFE05D,#FF9642);
 .aboicon a{
     color: whitesmoke;
 }
+
+/* formcontainer*/
+
+.formcont{
+    width: 100%;
+    padding-top: 2rem;
+    background-color: #f6f5f5;
+}
+
+.login-label{
+    color:grey ;
+     display: block;
+    font-size: 25px;
+    width: 150px;
+    margin: 10px;
+}
+
+.login-label:hover{
+   color:white;
+   background-color: black;
+}
+
+.inputlogin{
+  font-size: 25px;
+    width: 85%;
+    margin: 10px;
+    padding: 15px;
+    transition: 1s margin; 
+}
+
+.inputlogin:focus{
+    font-weight: bold;
+    /* margin-left: 30px; */
+}
+
+.inputlogin:hover{
+    margin-left: 35px;
+font-weight: bold;
+}
+.loghe{
+    font-size: 30px;
+    margin: 10px; 
+    
+}
+
+.logsub{
+    display: block;
+    width: 30%;
+    max-width: 150px;
+    font-size: 25px;
+    margin: 10px; 
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffd57e;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 730px){
+    .formfle{
+        display: flex;
+    }
+
+    .login{
+        width: 50%;
+       border-right: 3px solid black; 
+    }
+
+    .logup{
+        width: 50%;
+    }
+
+}
+
+
 
 
 

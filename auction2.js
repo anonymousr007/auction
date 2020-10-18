@@ -39,3 +39,14 @@ if (cro != null) {
 
 //ending of dynamic navbar;
 
+
+function onval() {
+    var x = document.forms["signup12"]["pass12"].value;
+    var x2 = document.forms["signup12"]["reypass"].value;
+
+    if (x != x2) {
+        alert("password and retype password shoule be same");
+        return false;
+    }
+    return true;
+}
